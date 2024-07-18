@@ -38,7 +38,7 @@ public class Program {
 		}
 		catch(ParseException e){
 			System.out.println("Formato da data inválido");
-		}catch(IllegalArgumentException e) {
+		}catch(DomainException e) {
 			System.out.println( e.getMessage());
 		}catch(RuntimeException e) {
 			System.out.println("Erro inesperado ");
